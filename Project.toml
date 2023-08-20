@@ -1,0 +1,9 @@
+name = "CLD"
+uuid = "834dee5e-a124-4880-8a6d-35d9ba98bc6f"
+authors = ["Christopher Teh Boon Sung <29899182+cbsteh@users.noreply.github.com>"]
+version = "0.1.0"
+
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+OrderedCollections = "bac558e1-5e72-5ebc-8fee-abe8a469f55d"
