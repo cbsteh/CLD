@@ -2,7 +2,7 @@
 # Compact Letter Display (CLD) in Julia
 
 ## Overview
-Compact letter displays are used to report results of pairwise comparisons among treatment means in comparative experiments, so that means with the same letter are not significantly different from one another according to some level of statistical significance (typically 5%).
+Compact letter display is used to report results of pairwise comparisons among treatment means in comparative experiments, so that means with the same letter are not significantly different from one another according to some level of statistical significance (typically 5%).
 
 The CLD in Julia is based on the insert-and-absorb algorithm by Piepho (2004). This code also includes the additional step of the sweeping algorithm to ensure there are no redundant letters.
 
