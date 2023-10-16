@@ -16,7 +16,7 @@ https://github.com/cbsteh/CLD.git
 The most important Julia source file is the `piepho.jl`, which contains the CLD algorithm. An example data file `example3.csv` is included as test.
 
 ## Example
-In Piepho (2004) paper, there is Example 3 which comprised 8 treatments: T1 to T8, with five significant pairwise comparisons: T1 vs T7, T1 vs T7, T2 vs T4, T2 vs T5, and T3 vs T5. So, prepare the following `CSV` file, named `example3.csv`:
+In Piepho (2004) paper, there is Example 3 which comprised 8 treatments: T1 to T8, with five significant pairwise comparisons: T1 vs T7, T1 vs T8, T2 vs T4, T2 vs T5, and T3 vs T5. So, prepare the following `CSV` file, named `example3.csv`:
 
 ```
 col1,col2,sig
@@ -51,7 +51,7 @@ T7,T8,FALSE
 ```
 where `col1` and `col2` represent the two columns for every pairwise comparison, and `sig` is either `TRUE` (for significant) or `FALSE` (for non-siginficant). The boolean for `sig` is case-insensitive, e.g., `true` and `false` are valid values, too.
 
-Then, call read the `CSV` file as a `DataFrame`:
+Then, read the `CSV` file as a `DataFrame`:
 
 ```
 using CLD
